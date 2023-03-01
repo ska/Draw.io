@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T10:15:50.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="3Vs1mxxY-pzZK3fwFuCS" type="github"><diagram name="Pagina-1" id="EzI_J0fk2mrWBtXwCNza">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-01T10:19:43.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yTylNZLl9fW_zpglU6ez" version="20.8.23" type="github">
+  <diagram name="Pagina-1" id="EzI_J0fk2mrWBtXwCNza">
+    <mxGraphModel dx="745" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="22iQJKxbWurUTKGytqjF-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22iQJKxbWurUTKGytqjF-8" target="22iQJKxbWurUTKGytqjF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-7" value="&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KL15 On-&amp;gt;Off event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22iQJKxbWurUTKGytqjF-6">
+          <mxGeometry x="-0.1817" y="14" relative="1" as="geometry">
+            <mxPoint y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-8" value="System running." style="ellipse;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-9" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Waiting KL15 On-&amp;gt;Off event&lt;/span&gt;&lt;br&gt;" style="endArrow=classic;html=1;sketch=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;spacing=0;textOpacity=80;curved=1;" edge="1" parent="1" source="22iQJKxbWurUTKGytqjF-8" target="22iQJKxbWurUTKGytqjF-8">
+          <mxGeometry x="0.5415" y="-24" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="100" as="sourcePoint" />
+            <mxPoint x="310" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="130" />
+              <mxPoint x="450" y="80" />
+              <mxPoint x="410" y="80" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="22iQJKxbWurUTKGytqjF-10" target="22iQJKxbWurUTKGytqjF-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-15" value="Application send&lt;br&gt;shut down command" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22iQJKxbWurUTKGytqjF-12">
+          <mxGeometry x="-0.1852" y="9" relative="1" as="geometry">
+            <mxPoint x="55" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-10" value="Application decide to shut down the display" style="ellipse;whiteSpace=wrap;html=1;shadow=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-11" value="System shut down" style="ellipse;whiteSpace=wrap;html=1;shadow=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-13" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="22iQJKxbWurUTKGytqjF-10" target="22iQJKxbWurUTKGytqjF-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="340" />
+              <mxPoint x="410" y="390" />
+              <mxPoint x="450" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22iQJKxbWurUTKGytqjF-14" value="Waiting application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22iQJKxbWurUTKGytqjF-13">
+          <mxGeometry x="-0.4486" y="3" relative="1" as="geometry">
+            <mxPoint x="43" y="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
